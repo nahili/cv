@@ -1,0 +1,41 @@
+
+body {
+  font-family: fantasy;
+  border:1px solid black;
+  font-size: 3em;
+}
+
+div {
+  border:1px solid black;
+}
+
+header {
+  max-width: 20em;
+  border:1px solid black;
+}
+
+article {
+  max-width: 20em;
+  border:1px solid black;
+}
+
+article header {
+  background-image: url(line-separator.svg);
+  background-size: cover;
+}
+
+.article-title {
+  background: white;
+}
+
+.age {
+  width:20em;
+}
+
+.diplome {
+  width:auto;
+}
+
+.experience {
+  width:auto;
+}
