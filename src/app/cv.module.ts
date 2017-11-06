@@ -6,6 +6,7 @@ import { CVService } from './cv.service';
 import { CVComponent } from './cv.component';
 import { HeaderComponent } from './header.component';
 import { AbilitiesComponent } from './abilities.component';
+import { ExperiencesComponent } from './experiences.component';
 
 @NgModule ({
   imports : [
@@ -14,7 +15,8 @@ import { AbilitiesComponent } from './abilities.component';
   declarations : [
     CVComponent,
     HeaderComponent,
-    AbilitiesComponent
+    AbilitiesComponent,
+    ExperiencesComponent
   ],
   providers : [
     CVService
