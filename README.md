@@ -1,2 +1,2 @@
 # cv
-CV in HTML/PDF
+CV in Angular 2
