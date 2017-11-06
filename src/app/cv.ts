@@ -51,25 +51,22 @@ export const CV: any = {
       ]
     },
     {
-      title:"Langues",
-      elements:[
-        {
-          title:"Français",
-          level:"Langue maternelle"
-        },
-        {
-          title:"Anglais",
-          level:"Bon écrit/parlé"
-        },
-        {
-          title:"Espagnole",
-          level:"En cours d'apprentissage"
-        }
-      ]
-    },
-    {
       title:"Humaines",
       elements:["Gestion de projet","Autonome","Travail d'équipe"]
+    }
+  ],
+  languages:[
+    {
+      title:"Français",
+      level:"Langue maternelle"
+    },
+    {
+      title:"Anglais",
+      level:"Bon écrit/parlé"
+    },
+    {
+      title:"Espagnole",
+      level:"En cours d'apprentissage"
     }
   ],
   experiences:[
