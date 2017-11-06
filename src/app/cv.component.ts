@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'cv',
-  templateUrl: './cv.html'
+  templateUrl: './cv.component.html'
 })
 export class CVComponent {
 
