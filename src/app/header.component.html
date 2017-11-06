@@ -1,0 +1,26 @@
+<h1>
+  {{header.lastname | uppercase}}
+  {{header.firstname | uppercase}}
+</h1>
+
+<div class="age">
+  {{header.age}}
+</div>
+
+<div class="diploma">
+  {{header.diploma}}
+</div>
+
+<div class="experience">
+  {{header.experience}} d'expérience
+</div>
+
+<div class="disponibility">
+  Disponible
+  <div *ngIf="header.disponibility.remote" class="remote">
+    dès {{header.disponibility.remote}} à distance
+  </div>
+  <div *ngIf="header.disponibility.local" class="local">
+    dès {{header.disponibility.local}} en Suisse
+  </div>
+</div>
