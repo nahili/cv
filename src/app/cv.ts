@@ -116,7 +116,7 @@ export const CV: any = {
       abilities:["Gestion de projet","C++","Qt","XML","SQL"]
     }
   ],
-  loisirs:[
+  hobbies:[
     {
       title:"Sports",
       elements:["Escalade","Cyclisme","Taekwondo","Badminton"]

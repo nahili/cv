@@ -8,6 +8,7 @@ import { HeaderComponent } from './header.component';
 import { AbilitiesComponent } from './abilities.component';
 import { ExperiencesComponent } from './experiences.component';
 import { FooterComponent } from './footer.component';
+import { HobbiesComponent } from './hobbies.component';
 
 @NgModule ({
   imports : [
@@ -18,7 +19,8 @@ import { FooterComponent } from './footer.component';
     HeaderComponent,
     AbilitiesComponent,
     ExperiencesComponent,
-    FooterComponent
+    FooterComponent,
+    HobbiesComponent
   ],
   providers : [
     CVService
