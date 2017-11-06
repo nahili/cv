@@ -7,6 +7,7 @@ import { CVComponent } from './cv.component';
 import { HeaderComponent } from './header.component';
 import { AbilitiesComponent } from './abilities.component';
 import { ExperiencesComponent } from './experiences.component';
+import { FooterComponent } from './footer.component';
 
 @NgModule ({
   imports : [
@@ -16,7 +17,8 @@ import { ExperiencesComponent } from './experiences.component';
     CVComponent,
     HeaderComponent,
     AbilitiesComponent,
-    ExperiencesComponent
+    ExperiencesComponent,
+    FooterComponent
   ],
   providers : [
     CVService

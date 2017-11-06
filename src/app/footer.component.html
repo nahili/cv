@@ -1,0 +1,10 @@
+<div class="footer">
+  <ul>
+    <li class="title">
+      {{footer.title}}
+    </li>
+    <li *ngFor="let link of footer.links" class="link">
+      <a href="{{link.url}}">{{link.title}}</a>
+    </li>
+  </ul>
+</div>

@@ -139,7 +139,7 @@ export const CV: any = {
       },
       {
         title:"Version PDF",
-        url:"https://github.com/nahili/cv/master/pdf.html"
+        url:"https://github.com/nahili/cv/master/cv.pdf"
       }
     ]
   }
