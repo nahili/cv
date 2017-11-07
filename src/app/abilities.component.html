@@ -6,7 +6,7 @@
   </h2>
 
   <!-- If section has elements, show them directly -->
-  <ul *ngIf="section.elements">
+  <ul *ngIf="section.elements" class="inline">
     <li *ngFor="let element of section.elements" class="element">
       {{element}}
     </li>
@@ -16,7 +16,7 @@
   <ul *ngIf="section.subsections">
     <li *ngFor="let sub of section.subsections" class="subsection">
       <h3>{{sub.title}}</h3>
-      <ul>
+      <ul class="inline">
         <li *ngFor="let element of sub.elements" class="element">
           {{element}}
         </li>

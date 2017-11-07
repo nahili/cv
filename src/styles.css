@@ -1,0 +1,23 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  max-width: 50em;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* DEV */
+div {
+  border: 1px solid black;
+}

@@ -1,0 +1,23 @@
+.header {
+  font-size: 2em;
+}
+
+.age {
+  font-weight: bold;
+}
+
+.diploma {
+  float:right;
+}
+
+.disponibility section {
+  position: relative;
+  margin-left: 7em;
+  font-size: 0.8em
+}
+
+.disponibility header {
+  float: left;
+  width: auto;
+  font-weight: bold;
+}
