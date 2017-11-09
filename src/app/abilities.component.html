@@ -6,29 +6,35 @@
   </h2>
 
   <!-- If section has elements, show them directly -->
-  <ul *ngIf="section.elements" class="inline">
+  <ul *ngIf="section.elements" class="elements">
     <li *ngFor="let element of section.elements" class="element">
       {{element}}
     </li>
   </ul>
 
-  <!-- Show each subsection and elements if there are any -->
-  <ul *ngIf="section.subsections">
+  <!-- Show all the subsections -->
+  <ul *ngIf="section.subsections" class="subsections">
     <li *ngFor="let sub of section.subsections" class="subsection">
-      <h3>{{sub.title}}</h3>
-      <ul class="inline">
-        <li *ngFor="let element of sub.elements" class="element">
-          {{element}}
-        </li>
-      </ul>
+      {{sub.title}}
     </li>
   </ul>
+
+  <div class="sub-elements">
+    <ul *ngFor="let sub of section.subsections" class="elements">
+      <li *ngFor="let element of sub.elements" class="element">
+        {{element}}
+      </li>
+    </ul>
+  </div>
+
+  <!-- Flex spacer -->
+  <div class="spacer"></div>
 </div>
 
 <!-- languages -->
 <div class="section">
   <h2 class="section-title">Langues</h2>
-  <ul>
+  <ul class="languages">
     <li *ngFor="let lang of languages">
       <span class="lang-name">{{lang.title}}</span>
       <span class="lang-level">({{lang.level}})</span>

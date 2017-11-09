@@ -1,7 +1,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  max-width: 50em;
+  max-width: 60em;
   margin: auto;
+  color: #555;
 }
 
 h1 {
@@ -13,11 +14,21 @@ h2 {
   font-family: 'Saira Semi Condensed', sans-serif;
 }
 
+h1,
+h2,
+strong {
+  color: #333;
+}
+
+a {
+  color: #e81c4f;
+}
+
 .clearfix {
   clear: both;
 }
 
 /* DEV */
-div {
-  border: 1px solid black;
-}
+/** {
+   border: 1px solid red !important;
+}*/

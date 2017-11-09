@@ -43,11 +43,7 @@ export const CV: any = {
         {
           title:"Serveurs",
           elements:["Apache","Nginx","PostgresQL","MySql","NodeJS","CouchDB"]
-        },
-        {
-          title:"Gestion de version",
-          elements:["GIT","SVN"]
-        },
+        }
       ]
     },
     {
