@@ -23,7 +23,7 @@
       </ul>
     </div>
     <div *ngIf="exp.contact" class="contacts">
-      <span class="section-title">Contact : </span>
+      <span class="contact-title">Contact : </span>
       <span *ngIf="exp.contact.name" class="contact-name">{{exp.contact.name}}</span>
       (
       <a href="mailto:{{exp.contact.email}}" *ngIf="exp.contact.email" class="contact-email">{{exp.contact.email}}</a>

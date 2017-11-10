@@ -30,6 +30,10 @@
   justify-content: flex-start;
 }
 
+.header span {
+  margin:auto;
+}
+
 .abilities-list {
   flex-wrap: wrap;
   padding-left: 0;
@@ -45,11 +49,18 @@
   margin-left: 1.5em;
 }
 
-.section-title {
+.section-title, .contact-title {
   font-weight: bold;
   padding-right: 1em;
   float: left;
+}
+
+.section-title {
   width: 13em;
+}
+
+.contact-title {
+  width: 5em;
 }
 
 .contact-name {

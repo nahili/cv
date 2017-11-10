@@ -3,3 +3,15 @@
 .print {
   display: block !important;
 }
+
+body {
+  background: none;
+}
+
+.pre-cv {
+  box-shadow: none;
+}
+
+.cv {
+  margin:0;
+}
