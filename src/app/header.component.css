@@ -1,5 +1,20 @@
+h1::first-letter {
+  font-size: 1.2em;
+}
+
+.name h1 {
+  display: inline;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-weight: bold;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+}
+
 .header {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .age {
@@ -10,14 +25,21 @@
   float:right;
 }
 
+.experience {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.disponibility {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .disponibility section {
-  position: relative;
-  margin-left: 7em;
   font-size: 0.8em
 }
 
 .disponibility header {
-  float: left;
-  width: auto;
   font-weight: bold;
+  margin: auto 1em auto 0;
 }

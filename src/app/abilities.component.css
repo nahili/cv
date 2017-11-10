@@ -1,7 +1,7 @@
 .element {
-  list-style-type: disc;
-  margin-left: 1.5em;
-  padding-left: 0;
+  list-style-type: '-';
+  margin-left: 0.5em;
+  padding-left: 0.3em;
   color: rgb(27, 27, 27);
 }
 
