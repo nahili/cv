@@ -5,7 +5,7 @@
     {{section.title}}
   </h2>
 
-  <ul *ngIf="section.elements">
+  <ul *ngIf="section.elements" class="elements">
     <li *ngFor="let element of section.elements" class="element">
       {{element}}
     </li>
