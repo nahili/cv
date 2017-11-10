@@ -4,7 +4,8 @@ import { CVService } from './cv.service';
 
 @Component({
   selector: 'cv-footer',
-  templateUrl: './footer.component.html'
+  templateUrl: './footer.component.html',
+  styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {
   footer:any = null;
