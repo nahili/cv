@@ -4,7 +4,8 @@ import { CVService } from './cv.service';
 
 @Component({
   selector: 'cv-experiences',
-  templateUrl: './experiences.component.html'
+  templateUrl: './experiences.component.html',
+  styleUrls: ['./experiences.component.css']
 })
 export class ExperiencesComponent implements OnInit {
   experiences:any = null;

@@ -1,0 +1,5 @@
+/* Styles specific for impression */
+
+.print {
+  display: block !important;
+}

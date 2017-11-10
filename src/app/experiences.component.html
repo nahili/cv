@@ -2,22 +2,22 @@
 
 <div *ngFor="let exp of experiences" class="experience">
   <div class="header">
-    <div class="dates">
-      <span class="duration">{{exp.duration}}</span>
+    <span class="duration">{{exp.duration}}</span>
+    <span class="dates">
       <span class="from">{{exp.from}}</span>
       <span class="separator">-</span>
       <span class="to">{{exp.to}}</span>
-    </div>
+    </span>
     <span class="title">{{exp.title}}</span>
   </div>
-  <div *ngIf="exp.abilities || exp.contact || exp.description" class="content">
+  <div *ngIf="exp.abilities || exp.contact || exp.description" class="content print">
     <div *ngIf="exp.description" class="description">
       {{exp.description}}
     </div>
     <div *ngIf="exp.abilities" class="abilities">
       <span class="section-title">Compétences acquises : </span>
-      <ul>
-        <li *ngFor="let element of exp.abilities">
+      <ul class="abilities-list">
+        <li *ngFor="let element of exp.abilities" class="ability">
           {{element}}
         </li>
       </ul>
@@ -25,8 +25,11 @@
     <div *ngIf="exp.contact" class="contacts">
       <span class="section-title">Contact : </span>
       <span *ngIf="exp.contact.name" class="contact-name">{{exp.contact.name}}</span>
-      <span *ngIf="exp.contact.email" class="contact-email">{{exp.contact.email}}</span>
-      <span *ngIf="exp.contact.phone" class="contact-phone">{{exp.contact.phone}}</span>
+      (
+      <a href="mailto:{{exp.contact.email}}" *ngIf="exp.contact.email" class="contact-email">{{exp.contact.email}}</a>
+      ,
+      <a href="tel:{{exp.contact.phone}}" *ngIf="exp.contact.phone" class="contact-phone">{{exp.contact.phone}}</a>
+      )
     </div>
   </div>
 </div>

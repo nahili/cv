@@ -28,6 +28,11 @@ a {
   clear: both;
 }
 
+/* Spacer element for Flex display */
+.spacer {
+  flex-grow: 1;
+}
+
 /* DEV */
 /** {
    border: 1px solid red !important;

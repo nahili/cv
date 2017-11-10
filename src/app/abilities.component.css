@@ -40,10 +40,6 @@
   margin-bottom: 1em;
 }
 
-.spacer {
-  flex-grow: 1;
-}
-
 .languages li:first-child {
   color: rgb(11, 11, 11);
   font-weight: bold;
