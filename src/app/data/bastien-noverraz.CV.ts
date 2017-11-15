@@ -1,10 +1,16 @@
 export const CV:any = {
-  header: {
+  person: {
     lastname:"Noverraz",
     firstname:"Bastien",
+    title:"Ingénieur Informaticien",
+    subtitle:"Développeur",
     birthday:new Date(1989,8,8),
-    diploma:"Bachelor in Computer Science",
     disponibility: "now"
+  },
+  diploma: {
+    title:"Bachelor in Computer Science",
+    icon:"",
+    school:"EIG"
   },
   abilities: [
     {
