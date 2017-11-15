@@ -10,8 +10,10 @@ export const CV:any = {
   },
   diploma: {
     title:"Bachelor in Computer Science",
-    icon:"",
-    school:"EIG"
+    /*icon:"/assets/hepia.jpg",*/
+    school:"HEPIA",
+    link:"http://hepia.hesge.ch/",
+    pdf:"https://github.com/nahili/cv/blob/master/cv.pdf"
   },
   contact: {
     email:"bastien.noverraz@gmail.com",

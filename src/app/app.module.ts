@@ -15,6 +15,7 @@ import { PersonComponent } from './person/person.component';
 import { BrefComponent } from './bref/bref.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
+import { DiplomaComponent } from './diploma/diploma.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { FooterComponent } from './footer/footer.component';
     PersonComponent,
     BrefComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    DiplomaComponent
   ],
   imports: [
     BrowserModule,
