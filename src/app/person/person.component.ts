@@ -5,8 +5,7 @@ import { CvService } from '../cv.service';
 @Component({
   selector: 'app-person',
   templateUrl: './person.component.html',
-  styleUrls: ['./person.component.css'],
-  encapsulation: ViewEncapsulation.None
+  styleUrls: ['./person.component.css']
 })
 export class PersonComponent implements OnInit {
 
