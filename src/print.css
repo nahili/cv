@@ -1,0 +1,13 @@
+/* Print specific stylesheet */
+
+.no-print {
+  display: none;
+}
+
+.print {
+  display: block;
+}
+
+.print-inline {
+  display: inline;
+}
