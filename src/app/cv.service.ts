@@ -14,8 +14,8 @@ export class CvService {
   // For the moment, that would be the first CV there is
   private cv:any = CVS[0];
 
-  header():Promise<any> {
-    return Promise.resolve(this.cv.header);
+  person():Promise<any> {
+    return Promise.resolve(this.cv.person);
   }
 
   abilites():Promise<Array<any>> {

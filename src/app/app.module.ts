@@ -4,19 +4,28 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 
 import { AppComponent } from './app.component';
-import { MaterialComponentsModule } from './material-components.module';
+import { MaterialComponentsModule } from './lib/material-components.module';
+
+// Services
+import { CvService } from './cv.service';
+
+// Components
+import { PersonComponent } from './person/person.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PersonComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MaterialComponentsModule
   ],
-  providers: [],
+  providers: [
+    CvService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
