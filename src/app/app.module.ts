@@ -11,12 +11,14 @@ import { CvService } from './cv.service';
 
 // Components
 import { PersonComponent } from './person/person.component';
+import { BrefComponent } from './bref/bref.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    PersonComponent
+    PersonComponent,
+    BrefComponent
   ],
   imports: [
     BrowserModule,

@@ -3,19 +3,22 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { CvService } from '../cv.service';
 
 @Component({
-  selector: 'app-person',
-  templateUrl: './person.component.html',
-  styleUrls: ['./person.component.css'],
+  selector: 'app-bref',
+  templateUrl: './bref.component.html',
+  styleUrls: ['./bref.component.css'],
   encapsulation: ViewEncapsulation.None
 })
-export class PersonComponent implements OnInit {
+export class BrefComponent implements OnInit {
 
-  person : any;
+  person:any;
+  diploma:any;
 
   constructor( private cvService:CvService ) { }
 
   ngOnInit() {
     this.cvService.person().then( person => this.person = person );
+    this.cvService.diploma().then( diploma => this.diploma = diploma );
   }
+
 
 }

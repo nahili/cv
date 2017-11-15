@@ -1,0 +1,22 @@
+<mat-card class="element aside">
+  <mat-card-header>
+    <div mat-card-avatar class="material-icons">attach_file</div>
+    <mat-card-title>
+      EN BREF
+    </mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <img *ngIf="person.picture" src="{{person.picture}}" class="photo"/>
+    <div *ngIf="person.age" class="age">
+      <strong>{{person.age}}</strong> ans
+    </div>
+    <div *ngIf="person.experience" class="experience">
+      <strong>{{person.experience}}</strong> ans d'expérience
+    </div>
+    <div *ngIf="diploma.title" class="diploma">
+      <strong>{{diploma.title}}</strong>
+    </div>
+    <div class="clear" />
+  </div>
+  </mat-card-content>
+</mat-card>
