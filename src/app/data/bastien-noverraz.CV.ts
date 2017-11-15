@@ -5,7 +5,8 @@ export const CV:any = {
     title:"Ingénieur Informaticien",
     subtitle:"Développeur",
     birthday:new Date(1989,8,8),
-    disponibility: "now"
+    disponibility: Date.now(),
+    picture: "/assets/bastien-noverraz.jpg"
   },
   diploma: {
     title:"Bachelor in Computer Science",
@@ -145,7 +146,8 @@ export const CV:any = {
   experiences:[
     {
       from:new Date(2016,6),
-      to:"now",
+      to: Date.now(),
+      doesNotCount: true,
       title:"Voyage",
       description:"Voyage autour du monde, en vélo, backpack, bus et voiture.",
       abilities:["Autonomie","Débrouillardise","Espagnol","Anglais"]
