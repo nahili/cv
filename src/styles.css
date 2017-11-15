@@ -4,3 +4,13 @@
 .clear {
   clear:both;
 }
+
+a {
+  color: #e91e63;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c4134f;
+  text-decoration: underline;
+}

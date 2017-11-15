@@ -39,6 +39,10 @@ export class CvService {
     return Promise.resolve(this.cv.diploma);
   }
 
+  contact():Promise<any> {
+    return Promise.resolve(this.cv.contact);
+  }
+
   abilites():Promise<Array<any>> {
     return Promise.resolve(this.cv.abilities);
   }

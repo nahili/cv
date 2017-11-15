@@ -13,6 +13,12 @@ export const CV:any = {
     icon:"",
     school:"EIG"
   },
+  contact: {
+    email:"bastien.noverraz@gmail.com",
+    phone:"076 418 37 23",
+    linkedin:"bastien-noverraz-8a13ba26",
+    address:"21 Rue de la Filature, 1224 Carouge"
+  },
   abilities: [
     {
       name:"Web Frontend",
