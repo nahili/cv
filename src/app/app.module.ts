@@ -14,6 +14,7 @@ import { CvService } from './cv.service';
 import { PersonComponent } from './person/person.component';
 import { BrefComponent } from './bref/bref.component';
 import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { ContactComponent } from './contact/contact.component';
     AppComponent,
     PersonComponent,
     BrefComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

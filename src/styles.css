@@ -14,3 +14,16 @@ a:hover {
   color: #c4134f;
   text-decoration: underline;
 }
+
+/* By default, hide the print version */
+.print {
+  display: none;
+}
+
+.no-print {
+  display: block;
+}
+
+.no-print-inline {
+  display: inline;
+}
