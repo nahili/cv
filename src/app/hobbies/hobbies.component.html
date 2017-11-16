@@ -1,0 +1,14 @@
+<mat-card class="element aside diploma">
+  <mat-card-header>
+    <div mat-card-avatar class="material-icons">motorcycle</div>
+    <mat-card-title>
+      LOISIRS
+    </mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <div *ngFor="let hobby of hobbies" class="hobby">
+      <img *ngIf="hobby.icon" src="{{hobby.icon}}" class="icon"/>
+      <span *ngIf="!hobby.icon && hobby.name" class="name">{{hobby.name}}</span>
+    </div>
+  </mat-card-content>
+</mat-card>

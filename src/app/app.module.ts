@@ -16,6 +16,7 @@ import { BrefComponent } from './bref/bref.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { DiplomaComponent } from './diploma/diploma.component';
+import { HobbiesComponent } from './hobbies/hobbies.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { DiplomaComponent } from './diploma/diploma.component';
     BrefComponent,
     ContactComponent,
     FooterComponent,
-    DiplomaComponent
+    DiplomaComponent,
+    HobbiesComponent
   ],
   imports: [
     BrowserModule,

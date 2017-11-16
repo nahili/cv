@@ -212,19 +212,19 @@ export const CV:any = {
   hobbies:[
     {
       name:"Escalade",
-      icon:""
+      icon:"/assets/climbing.svg"
     },
     {
       name:"Cyclisme",
-      icon:""
+      icon:"/assets/scott.png"
     },
     {
       name:"Taekwondo",
-      icon:""
+      icon:"/assets/taekwondo.png"
     },
     {
       name:"Informatique",
-      icon:""
+      icon:"/assets/terminal.svg"
     }
   ]
 };
