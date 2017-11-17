@@ -1,6 +1,6 @@
 /* Print specific stylesheet */
 
-.no-print {
+.no-print, .no-print-inline {
   display: none;
 }
 
