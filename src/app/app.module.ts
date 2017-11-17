@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {HttpClientModule} from '@angular/common/http';
 
 
 import { AppComponent } from './app.component';
@@ -17,6 +18,9 @@ import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { DiplomaComponent } from './diploma/diploma.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
+import { AbilitiesComponent } from './abilities/abilities.component';
+import { AbilityComponent } from './abilities/ability/ability.component';
+import { TimesPipe } from './times.pipe';
 
 
 @NgModule({
@@ -28,12 +32,16 @@ import { HobbiesComponent } from './hobbies/hobbies.component';
     ContactComponent,
     FooterComponent,
     DiplomaComponent,
-    HobbiesComponent
+    HobbiesComponent,
+    AbilitiesComponent,
+    AbilityComponent,
+    TimesPipe
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MaterialComponentsModule
+    MaterialComponentsModule,
+    HttpClientModule
   ],
   providers: [
     CvService

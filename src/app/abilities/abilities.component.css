@@ -1,0 +1,40 @@
+.ability-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ability {
+  width: 12em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.ability mat-card-title {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+/* Types styles */
+.lang { background-color: rgb(54, 107, 213); }
+.framework { background-color: rgb(54, 184, 84); }
+.human { background-color: rgb(201, 110, 58); }
+.os { background-color: rgb(135, 60, 187); }
+.tool { background-color: rgb(130, 75, 231); }
+
+.print {
+  display: none;
+}
+.no-print {
+  display: block;
+}
+
+@media print {
+  .print {
+    display: block;
+  }
+  .no-print {
+    display: none;
+  }
+}
