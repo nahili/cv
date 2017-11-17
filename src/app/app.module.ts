@@ -6,7 +6,6 @@ import {HttpClientModule} from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { MaterialComponentsModule } from './lib/material-components.module';
-import { Icons } from './lib/icons.component';
 
 // Services
 import { CvService } from './cv.service';
@@ -25,7 +24,6 @@ import { TimesPipe } from './times.pipe';
 
 @NgModule({
   declarations: [
-    Icons,
     AppComponent,
     PersonComponent,
     BrefComponent,
