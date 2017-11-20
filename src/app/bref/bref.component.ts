@@ -5,8 +5,7 @@ import { CvService } from '../cv.service';
 @Component({
   selector: 'app-bref',
   templateUrl: './bref.component.html',
-  styleUrls: ['./bref.component.css'],
-  encapsulation: ViewEncapsulation.None
+  styleUrls: ['./bref.component.css']
 })
 export class BrefComponent implements OnInit {
 
