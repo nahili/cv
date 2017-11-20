@@ -1,17 +1,19 @@
-<h1 mat-dialog-title>{{ability.name}}</h1>
-<mat-dialog-content>
-  <p class="description">
-    {{ability.description}}
-  </p>
-  <div *ngFor="let project of ability.projects">
-    <h2 class="where">
-      {{project.where}}
-    </h2>
-    <div class="what">
-      {{project.what}}
+<div *ngIf="ability">
+  <h1 mat-dialog-title>{{ability.name}}</h1>
+  <mat-dialog-content>
+    <p class="description">
+      {{ability.description}}
+    </p>
+    <div *ngFor="let project of ability.projects">
+      <h2 class="where">
+        {{project.where}}
+      </h2>
+      <div class="what">
+        {{project.what}}
+      </div>
     </div>
-  </div>
-</mat-dialog-content>
-<mat-dialog-actions>
-  <button mat-button mat-button-close>Fermer</button>
-</mat-dialog-actions>
+  </mat-dialog-content>
+  <mat-dialog-actions>
+    <button mat-button mat-button-close>Fermer</button>
+  </mat-dialog-actions>
+</div>

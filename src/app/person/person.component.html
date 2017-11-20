@@ -1,4 +1,4 @@
-<mat-card class="segment person">
+<mat-card  *ngIf="person" class="segment person">
   <mat-card-title class="name">
     <span>{{person.firstname | uppercase}}</span>
     <span>{{person.lastname | uppercase}}</span>
