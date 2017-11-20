@@ -5,7 +5,7 @@
       LOISIRS
     </mat-card-title>
   </mat-card-header>
-  <mat-card-content *ngIf="hobby">
+  <mat-card-content *ngIf="hobbies">
     <div *ngFor="let hobby of hobbies" class="hobby">
       <img *ngIf="hobby.icon" src="{{hobby.icon}}" class="icon"/>
       <span *ngIf="!hobby.icon && hobby.name" class="name">{{hobby.name}}</span>
