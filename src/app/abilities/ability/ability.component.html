@@ -5,15 +5,15 @@
       {{ability.description}}
     </p>
     <div *ngFor="let project of ability.projects">
-      <h2 class="where">
+      <h3 class="where">
         {{project.where}}
-      </h2>
+      </h3>
       <div class="what">
         {{project.what}}
       </div>
     </div>
   </mat-dialog-content>
   <mat-dialog-actions>
-    <button mat-button mat-button-close>Fermer</button>
+    <button color="primary" mat-raised-button mat-dialog-close>Retour</button>
   </mat-dialog-actions>
 </div>
