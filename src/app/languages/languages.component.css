@@ -1,0 +1,16 @@
+.icon {
+  max-width: 2em;
+  max-height: 2em;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.level {
+  color:  #e91e63;
+}
+
+.title {
+  padding: 0 1em;
+}

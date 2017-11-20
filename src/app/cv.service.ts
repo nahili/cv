@@ -74,4 +74,8 @@ export class CvService {
   hobbies():Promise<Array<any>> {
     return Promise.resolve(this.cv.hobbies);
   }
+
+  languages():Promise<Array<any>> {
+    return Promise.resolve(this.cv.languages);
+  }
 }

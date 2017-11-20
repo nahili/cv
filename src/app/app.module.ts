@@ -21,6 +21,7 @@ import { AbilitiesComponent } from './abilities/abilities.component';
 import { AbilityComponent } from './abilities/ability/ability.component';
 import { TimesPipe } from './times.pipe';
 import { ExperiencesComponent } from './experiences/experiences.component';
+import { LanguagesComponent } from './languages/languages.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { ExperiencesComponent } from './experiences/experiences.component';
     AbilitiesComponent,
     AbilityComponent,
     TimesPipe,
-    ExperiencesComponent
+    ExperiencesComponent,
+    LanguagesComponent
   ],
   imports: [
     BrowserModule,

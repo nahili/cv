@@ -307,15 +307,18 @@ export const CV:any = {
   languages:[
     {
       title:"Français",
-      level:"Langue native"
+      level:"Langue native",
+      icon:"/assets/french.svg"
     },
     {
       title:"Anglais",
-      level:"C1"
+      level:"C1",
+      icon:"/assets/english.svg"
     },
     {
       title:"Espagnol",
-      level:"A1"
+      level:"A1",
+      icon:"/assets/spanish.svg"
     }
   ],
   experiences:[
