@@ -20,6 +20,7 @@ import { HobbiesComponent } from './hobbies/hobbies.component';
 import { AbilitiesComponent } from './abilities/abilities.component';
 import { AbilityComponent } from './abilities/ability/ability.component';
 import { TimesPipe } from './times.pipe';
+import { ExperiencesComponent } from './experiences/experiences.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { TimesPipe } from './times.pipe';
     HobbiesComponent,
     AbilitiesComponent,
     AbilityComponent,
-    TimesPipe
+    TimesPipe,
+    ExperiencesComponent
   ],
   imports: [
     BrowserModule,

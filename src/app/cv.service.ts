@@ -51,7 +51,24 @@ export class CvService {
   }
 
   experiences():Promise<Array<any>> {
-    return Promise.resolve(this.cv.experiences);
+    let experiences = this.cv.experiences;
+    // Calculate the experience duration
+    for (let exp of experiences) {
+      // Duration in days
+      let duration = Math.abs(exp.from - exp.to) / (1000 * 3600 * 24);
+      // If more than a year, show the 1/2 years
+      if (duration > 365) {
+        exp.duration = Math.ceil((duration*2/365))/2;
+        exp.duration = exp.duration + ((exp.duration > 1) ? " ans":" an");
+      }
+      // If more than a month, show in months
+      else if (duration > 30)
+        exp.duration = Math.ceil(duration/30) + " mois";
+      // Else, just put in days (which is sad)
+      else
+        exp.duration = duration + ((duration > 1) ? " jours":" jour");
+    }
+    return Promise.resolve(experiences);
   }
 
   hobbies():Promise<Array<any>> {

@@ -1,0 +1,31 @@
+.title {
+  font-weight: bold;
+}
+
+.description {
+  font-size: 1.1em;
+}
+
+.years, .duration {
+  font-size: 0.8em;
+  margin-top: 1.2vw;
+  margin-right: 1em;
+}
+
+.duration {
+  font-weight: bold;
+  width: 5em;
+}
+
+.years {
+  width: 8em;
+  color: #e91e63;
+}
+
+.title {
+  flex-grow: 1;
+}
+
+.contact {
+  margin-bottom: 1em;
+}
