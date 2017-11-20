@@ -1,4 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
+import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material'
 
 @Component({
   selector: 'app-ability',
@@ -7,9 +8,11 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class AbilityComponent implements OnInit {
 
-  @Input() ability:any;
+  ability:any;
 
-  constructor() { }
+  constructor(@Inject(MAT_DIALOG_DATA) public data: any) {
+    this.ability = data.ability;
+  }
 
   ngOnInit() {
   }

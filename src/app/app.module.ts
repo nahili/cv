@@ -44,6 +44,9 @@ import { TimesPipe } from './times.pipe';
   providers: [
     CvService
   ],
+  entryComponents: [
+    AbilityComponent
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

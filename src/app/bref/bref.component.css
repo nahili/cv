@@ -3,4 +3,6 @@
   float:left;
   margin-right: 1em;
   font-size: 1.2em;
+  border: 2px solid white;
+  border-radius: 10%;
 }

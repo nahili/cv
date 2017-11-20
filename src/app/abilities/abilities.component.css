@@ -18,10 +18,15 @@
 
 /* Types styles */
 .lang { background-color: rgb(54, 107, 213); }
+.lang:hover { background-color: rgb(78, 123, 212); }
 .framework { background-color: rgb(54, 184, 84); }
+.framework:hover { background-color: rgb(126, 177, 129); }
 .human { background-color: rgb(201, 110, 58); }
+.human:hover { background-color: rgb(204, 134, 94); }
 .os { background-color: rgb(135, 60, 187); }
+.os:hover { background-color: rgb(146, 74, 187); }
 .tool { background-color: rgb(130, 75, 231); }
+.tool:hover { background-color: rgb(143, 88, 228); }
 
 .print {
   display: none;

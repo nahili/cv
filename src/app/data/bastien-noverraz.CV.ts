@@ -29,7 +29,7 @@ export const CV:any = {
       context:["web", "GUI"],
       style: "lang",
       level: 3,
-      projets: [{
+      projects: [{
         where:"RH/Givaudan",
         what:"Interface web interne pour Givaudan avec Webix."
       },{
@@ -47,7 +47,7 @@ export const CV:any = {
       context:["web","GUI"],
       style: "framework",
       level: 2,
-      projets: [{
+      projects: [{
         where:"TL",
         what:"Modifications et adaptations des interfaces des bornes aux arrêts et dans les bus."
       },
@@ -63,7 +63,7 @@ export const CV:any = {
       context:["web","GUI"],
       style: "framework",
       level: 1,
-      projets: [{
+      projects: [{
         where:"RH/Givaudan",
         what:"Interface web interne pour Givaudan."
       }]
@@ -75,7 +75,7 @@ export const CV:any = {
       context:["backend", "GUI"],
       style: "framework",
       level: 3,
-      projets: [{
+      projects: [{
         where:"HEIG-VD",
         what:"Logiciel Ezechiel à but médical, avec interface graphique, base de donnée, XML."
       },{
@@ -90,7 +90,7 @@ export const CV:any = {
       context:["backend","embedded"],
       style: "lang",
       level: 2,
-      projets: [{
+      projects: [{
         where:"HEPIA",
         what:"Apprentissage du language et utilisation dans de multiple projets."
       },{
@@ -105,7 +105,7 @@ export const CV:any = {
       context:["backend","admin","embedded"],
       style: "lang",
       level: 4,
-      projets: [{
+      projects: [{
         where:"TL",
         what:"Largement utilisé pour automatiser des tâches dans les plateformes embarquées (bus, bornes aux arrêts)."
       },{
@@ -120,7 +120,7 @@ export const CV:any = {
       context:["backend"],
       style: "lang",
       level: 4,
-      projets: [{
+      projects: [{
         where:"TL",
         what:"Déboguage, maintenance et développement sur le logiciel métier Synthese."
       },{
@@ -135,7 +135,7 @@ export const CV:any = {
       context:["backend"],
       style: "lang",
       level: 3,
-      projets: [{
+      projects: [{
         where:"PMU",
         what:"Backend du site web mobile, backend de l'outil des RH."
       },{
@@ -153,7 +153,7 @@ export const CV:any = {
       context:["backend","GUI"],
       style: "lang",
       level: 1,
-      projets: [{
+      projects: [{
         where:"Apprentissage",
         what:"Utilisé lors des cours de Bachelor"
       }]
@@ -165,7 +165,7 @@ export const CV:any = {
       context:["admin","web"],
       style: "framework",
       level: 2,
-      projets: [{
+      projects: [{
         where:"PMU",
         what:"Création du site web mobile."
       }]
@@ -177,7 +177,7 @@ export const CV:any = {
       context:["admin","embedded"],
       style: "os",
       level: 4,
-      projets: [{
+      projects: [{
         where:"Personnel",
         what:"Utilisé dans la vie de tous les jours et pour les plateformes de développement."
       }]
@@ -189,7 +189,7 @@ export const CV:any = {
       context:["admin","embedded"],
       style: "os",
       level: 3,
-      projets: [{
+      projects: [{
         where:"TL",
         what:"Utilisé pour les serveurs de Synthese et comme OS embarqué dans les bus et bornes."
       }]
@@ -201,7 +201,7 @@ export const CV:any = {
       context:["admin","embedded"],
       style: "os",
       level: 3,
-      projets: [{
+      projects: [{
         where:"PMU",
         what:"Tous les serveurs web, DNS et IMAP"
       },{
@@ -216,7 +216,7 @@ export const CV:any = {
       context:["admin","virtualization"],
       style: "tool",
       level: 2,
-      projets: [{
+      projects: [{
         where:"PMU",
         what:"Gestion des machines virtuelles."
       }]
@@ -231,7 +231,7 @@ export const CV:any = {
       context:["backend","admin","virtualization"],
       style: "tool",
       level: 2,
-      projets: [{
+      projects: [{
         where:"TL",
         what:"Utilisé pour le développement de l'OS embarqué."
       }]
@@ -243,7 +243,7 @@ export const CV:any = {
       context:["admin"],
       style: "tool",
       level: 3,
-      projets: [{
+      projects: [{
         where:"TL",
         what:"Monitoring des services de Synthese et de la performance du site web."
       },{
@@ -252,7 +252,7 @@ export const CV:any = {
       }]
     },
     {
-      name:"Projets",
+      name:"projets",
       description:`
         Au cours de mes différent poste j'ai eu l'occasion de participer ou de
         gérer différent projets. Soit de manière complète comme avec le projet
@@ -264,7 +264,7 @@ export const CV:any = {
       context:["human"],
       style: "human",
       level: 3,
-      projets: [{
+      projects: [{
         where:"TL",
         what:"Travail avec une équipe de développeurs sur l'application Synthese."
       },{

@@ -1,8 +1,10 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import {MatIconRegistry} from '@angular/material';
 import {DomSanitizer} from '@angular/platform-browser';
+import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
 
 import { CvService } from '../cv.service';
+import { AbilityComponent } from './ability/ability.component';
 
 @Component({
   selector: 'app-abilities',
@@ -12,11 +14,13 @@ import { CvService } from '../cv.service';
 export class AbilitiesComponent implements OnInit {
 
   abilities: any;
+  selectedAbility: any;
 
   constructor(
     private cvService:CvService,
     iconRegistry: MatIconRegistry,
-    sanitizer: DomSanitizer
+    sanitizer: DomSanitizer,
+    public dialog: MatDialog
   ) {
     // Loading icons
     iconRegistry.addSvgIcon(
@@ -43,6 +47,14 @@ export class AbilitiesComponent implements OnInit {
 
   ngOnInit() {
     this.cvService.abilities().then( abilities => this.abilities = abilities );
+  }
+
+  // Show the detail of an ability
+  select(ability:any):void {
+    this.dialog.open(AbilityComponent, {
+      data: { ability:ability },
+      disableClose: false,
+    });
   }
 
 }
