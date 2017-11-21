@@ -31,6 +31,10 @@
         <a *ngIf="exp.contact.phone" href="tel:{{exp.contact.phone}}">{{exp.contact.phone}}</a>
       </div>
 
+      <div *ngIf="exp.attestation" class="attestation no-print">
+        <a href="{{exp.attestation}}" class="title">Lien vers l'attestation : </a>
+      </div>
+
       <mat-chip-list>
         <mat-chip *ngFor="let ability of exp.abilities">
           {{ability}}

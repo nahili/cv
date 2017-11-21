@@ -43,6 +43,10 @@ export class CvService {
     return Promise.resolve(this.cv.contact);
   }
 
+  links():Promise<any> {
+    return Promise.resolve(this.cv.links);
+  }
+
   abilities():Promise<Array<any>> {
     let abilities = this.cv.abilities;
     // Sorting the abilities by level

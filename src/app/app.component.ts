@@ -84,10 +84,8 @@ export class AppComponent implements OnInit {
   move(selector:string, id:string):void {
     let div = document.getElementById(id)
     let component = document.getElementsByTagName(selector)[0]
-    if (div && component) {
+    if (div && component)
       div.appendChild(component);
-      console.log("Moving " + selector + " to " + id);
-    }
     else
       console.log("Error while moving " + selector + " to " + id);
   }

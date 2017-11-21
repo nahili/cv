@@ -1,12 +1,12 @@
 <mat-card class="element aside footer">
   <div class="made-with">
-    CV fait en <a href="https://angular.io/">Angular 2</a>
+    CV réalisé en <a target="_blank" href="https://angular.io/">Angular 2</a>
      /
-    <a href="https://material.angular.io/">Material</a>
+    <a target="_blank" href="https://material.angular.io/">Material</a>
   </div>
   <ul>
-    <li class="source"><a href="https://github.com/nahili/cv/">Source sur GitHub</a></li>
-    <li class="print"><a>Version Web</a></li>
-    <li class="no-print"><a href="https://github.com/nahili/cv/raw/master/cv.pdf">Version PDF</a></li>
+    <li class="source"><a target="_blank" href="https://github.com/nahili/cv/">Source sur GitHub</a></li>
+    <li *ngIf="links && links.web" class="print"><a target="_blank" href="{{links.web}}">Version Web</a></li>
+    <li *ngIf="links && links.pdf" class="no-print"><a target="_blank" href="{{links.pdf}}">Version PDF</a></li>
   </ul>
 </mat-card>

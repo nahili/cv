@@ -12,14 +12,14 @@
     </div>
     <div *ngIf="diploma.school" class="school">
       <strong>
-        <a *ngIf="diploma.link" href="{{diploma.link}}">
+        <a target="_blank" *ngIf="diploma.link" href="{{diploma.link}}">
           {{diploma.school}}
         </a>
         <span *ngIf="!diploma.link">{{diploma.school}}</span>
       </strong>
     </div>
-    <div *ngIf="diploma.pdf" class="diploma">
-      <a href="{{diploma.pdf}}">Voir le diplôme</a>
+    <div *ngIf="diploma.pdf" class="diploma no-print">
+      <a target="_blank" href="{{diploma.pdf}}">Voir le diplôme</a>
     </div>
     <div class="clear"></div>
   </mat-card-content>

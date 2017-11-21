@@ -29,19 +29,3 @@ ul {
   padding: 0;
   margin: 0.2em 0 0 0;
 }
-
-.print {
-  display: none;
-}
-.no-print {
-  display: block;
-}
-
-@media print {
-  .print {
-    display: block;
-  }
-  .no-print {
-    display: none;
-  }
-}
