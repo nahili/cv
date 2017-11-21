@@ -2,8 +2,8 @@ export const CV:any = {
   person: {
     lastname:"Noverraz",
     firstname:"Bastien",
-    title:"Ingénieur Informaticien",
-    subtitle:"Développeur",
+    title:"Ingénieur / Développeur",
+    subtitle:"",
     birthday:new Date(1989,8,8),
     disponibility: Date.now(),
     picture: "/assets/bastien-noverraz/bastien-noverraz.jpg"
