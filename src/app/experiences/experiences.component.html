@@ -7,7 +7,7 @@
   </mat-card-header>
   <mat-card-content  *ngIf="experiences" class="experiences-list">
 
-    <mat-expansion-panel *ngFor="let exp of experiences">
+    <mat-expansion-panel *ngFor="let exp of experiences" [expanded]="expand" [hideToggle]="expand">
       <mat-expansion-panel-header>
         <div class="header">
           <span color="primary" class="duration">{{exp.duration}}</span>
@@ -31,8 +31,8 @@
         <a *ngIf="exp.contact.phone" href="tel:{{exp.contact.phone}}">{{exp.contact.phone}}</a>
       </div>
 
-      <div *ngIf="exp.attestation" class="attestation no-print">
-        <a href="{{exp.attestation}}" class="title">Lien vers l'attestation : </a>
+      <div *ngIf="exp.attestation" class="attestation">
+        <a href="{{exp.attestation}}" class="title">Lien vers l'attestation</a>
       </div>
 
       <mat-chip-list>
