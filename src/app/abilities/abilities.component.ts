@@ -2,6 +2,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import {MatIconRegistry} from '@angular/material';
 import {DomSanitizer} from '@angular/platform-browser';
 import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
+import {BreakpointObserver, Breakpoints} from '@angular/cdk/layout';
 
 import { CvService } from '../cv.service';
 import { AbilityComponent } from './ability/ability.component';
@@ -15,12 +16,14 @@ export class AbilitiesComponent implements OnInit {
 
   abilities: any;
   selectedAbility: any;
+  print:boolean = false;
 
   constructor(
     private cvService:CvService,
     iconRegistry: MatIconRegistry,
     sanitizer: DomSanitizer,
-    public dialog: MatDialog
+    public dialog: MatDialog,
+    public breakpointObserver: BreakpointObserver
   ) {
     // Loading icons
     iconRegistry.addSvgIcon(
@@ -47,6 +50,15 @@ export class AbilitiesComponent implements OnInit {
 
   ngOnInit() {
     this.cvService.abilities().then( abilities => this.abilities = abilities );
+
+    // When print, show as a list
+    this.breakpointObserver.observe([
+      'print'
+    ]).subscribe(result => {
+      if (result.matches) {
+        this.print = true;
+      }
+    });
   }
 
   // Show the detail of an ability

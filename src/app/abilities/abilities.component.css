@@ -21,7 +21,7 @@
   float:right;
 }
 
-/* Fixes a problem with the title being too low on screen small than 600px */
+/* Fixes a problem with the title being too low on screen smaller than 600px */
 .mat-card-header {
   margin: 0 !important;
 }
@@ -47,12 +47,16 @@
   display:block;
 }
 
+/* On print, show a triple list */
 @media print {
-  .print {
-    display: block;
+  .ability {
+    width: 32%;
   }
-  .no-print {
-    display: none;
+  .ability-inline {
+    display:block;
+  }
+  .ability-block {
+    display:none;
   }
 }
 
