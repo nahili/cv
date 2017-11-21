@@ -8,22 +8,22 @@
   <mat-card-content *ngIf="contact">
     <table>
       <tr *ngIf="contact.email">
-        <td class="material-icons">mail</td>
+        <td class="material-icons icons">mail</td>
         <td class="title">E-mail</td>
         <td><a href="mailto:{{contact.email}}">{{contact.email}}</a></td>
       </tr>
       <tr *ngIf="contact.phone">
-        <td class="material-icons">phone</td>
+        <td class="material-icons icons">phone</td>
         <td class="title">Mobile</td>
         <td><a href="tel:{{contact.phone}}">{{contact.phone}}</a></td>
       </tr>
       <tr *ngIf="contact.linkedin">
-        <td class="material-icons">linkedin</td>
+        <td class="material-icons icons">linkedin</td>
         <td class="title">LinkedIn</td>
         <td><a href="https://www.linkedin.com/in/{{contact.linkedin}}">{{contact.linkedin}}</a></td>
       </tr>
       <tr *ngIf="contact.address">
-        <td class="material-icons">location_city</td>
+        <td class="material-icons icons">location_city</td>
         <td class="title">Adresse</td>
         <td><a href="http://www.openstreetmap.org/search?query={{contact.address}}">{{contact.address}}</a></td>
       </tr>

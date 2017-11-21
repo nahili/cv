@@ -3,6 +3,10 @@
   font-weight: bold;
 }
 
-.material-icons {
+.icons {
   width: 1.2em;
+}
+
+mat-card-content {
+  font-size: 0.9em;
 }

@@ -9,13 +9,15 @@
 
     <mat-expansion-panel *ngFor="let exp of experiences">
       <mat-expansion-panel-header>
-        <span color="primary" class="duration">{{exp.duration}}</span>
-        <div class="years">
-          <span class="from">{{exp.from | date:'y'}}</span>
-          -
-          <span class="to">{{exp.to | date:'y'}}</span>
+        <div class="header">
+          <span color="primary" class="duration">{{exp.duration}}</span>
+          <div class="years">
+            <span class="from">{{exp.from | date:'y'}}</span>
+            -
+            <span class="to">{{exp.to | date:'y'}}</span>
+          </div>
+          <h3 class="title">{{exp.title}}</h3>
         </div>
-        <h3 class="title">{{exp.title}}</h3>
       </mat-expansion-panel-header>
 
       <p class="description">

@@ -11,9 +11,19 @@
   text-align: center;
 }
 
-.ability mat-card-title {
+.title {
   font-size: 1.3em;
   font-weight: bold;
+  margin: auto 0;
+}
+
+.levels {
+  float:right;
+}
+
+/* Fixes a problem with the title being too low on screen small than 600px */
+.mat-card-header {
+  margin: 0 !important;
 }
 
 /* Types styles */
@@ -28,11 +38,13 @@
 .tool { background-color: rgb(130, 75, 231); }
 .tool:hover { background-color: rgb(143, 88, 228); }
 
-.print {
-  display: none;
+.ability-inline {
+  display:none;
+  text-align: left;
 }
-.no-print {
-  display: block;
+
+.ability-block {
+  display:block;
 }
 
 @media print {
@@ -41,5 +53,18 @@
   }
   .no-print {
     display: none;
+  }
+}
+
+/* Small screen */
+@media screen and (max-width: 400px) {
+  .ability {
+    width: 100%;
+  }
+  .ability-inline {
+    display:block;
+  }
+  .ability-block {
+    display:none;
   }
 }

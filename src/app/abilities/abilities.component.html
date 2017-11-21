@@ -7,15 +7,21 @@
   </mat-card-header>
   <mat-card-content  *ngIf="abilities" class="ability-list">
 
-    <mat-card *ngFor="let ability of abilities" (click)="select(ability)" class="mat-elevation-z2 ability {{ability.style}}">
+    <mat-card *ngFor="let ability of abilities" (click)="select(ability)" class="mat-elevation-z2 ability {{ability.style}} ability-block">
       <mat-card-header>
         <mat-icon mat-card-avatar svgIcon="ability_{{ability.style}}"></mat-icon>
-        <mat-card-title>{{ability.name}}</mat-card-title>
+        <mat-card-title class="title">{{ability.name}}</mat-card-title>
       </mat-card-header>
       <mat-card-content>
         <span *ngFor="let e of ability.level | times" class="material-icons">check</span>
       </mat-card-content>
     </mat-card>
+
+    <span *ngFor="let ability of abilities" (click)="select(ability)" class="mat-elevation-z2 ability {{ability.style}} ability-inline">
+        <mat-icon mat-card-avatar svgIcon="ability_{{ability.style}}"></mat-icon>
+        <span class="title">{{ability.name}}</span>
+        <span class="levels"><span *ngFor="let e of ability.level | times" class="material-icons">check</span></span>
+    </span>
 
   </mat-card-content>
 </mat-card>

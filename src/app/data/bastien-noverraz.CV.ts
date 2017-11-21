@@ -252,7 +252,7 @@ export const CV:any = {
       }]
     },
     {
-      name:"projets",
+      name:"Projets",
       description:`
         Au cours de mes différent poste j'ai eu l'occasion de participer ou de
         gérer différent projets. Soit de manière complète comme avec le projet
@@ -333,9 +333,8 @@ export const CV:any = {
     {
       from:new Date(2014,4),
       to:new Date(2016,5),
-      title:"Transports publics de la région lausannoise SA / Développeur",
-      short:"TL",
-      description:"Travail au sein de l'équipe informatique pour la partie information voyageur. Logiciel open-source spécialisé dans la gestion d'horaire en C++/SQL pour le backend et travail avec des intervenants externes pour le développement du site web, des paneaux d'affichage aux arrêts, dans les bus et sur l'application mobile. Au cours de ce mandat la plateforme embarquée dans les bus a été refaite afin d'être plus maintenable et flexible.",
+      title:"TL SA",
+      description:"Travail au sein de l'équipe informatique des Transports publics de la région lausannoise SA pour la partie information voyageur. Logiciel open-source spécialisé dans la gestion d'horaire en C++/SQL pour le backend et travail avec des intervenants externes pour le développement du site web, des paneaux d'affichage aux arrêts, dans les bus et sur l'application mobile. Au cours de ce mandat la plateforme embarquée dans les bus a été refaite afin d'être plus maintenable et flexible.",
       abilities:["Gestion de projet","C++","Angular","Web","CouchDB","OpenSuse","Docker","GIT","Travail d'équipe","Zabbix"],
       contact:{
         name:"BEAUSSAULT Stéphane",
@@ -346,8 +345,8 @@ export const CV:any = {
     {
       from:new Date(2014,4),
       to:new Date(2013,8),
-      title:"Policlinique Médicale Universitaire / Civiliste",
-      description:"Travail varié, création et administration d'un système de serveurs Web virtuels pour les besoins du service informatique. Travail sur le CMS Allegro pour les RH. Création d'un site web mobile en Drupal.",
+      title:"PMU",
+      description:"Travail varié au sein de la Policlinique Médicale Universitaire en tant que Civiliste, création et administration d'un système de serveurs Web virtuels pour les besoins du service informatique. Travail sur le CMS Allegro pour les RH. Création d'un site web mobile en Drupal.",
       abilities:["Proxmox","Apache","Allegro","Zabbix","Observium","Drupal","Joomla","Web","MySQL","Debian"],
       contact:{
         name:"THABARD Julien",
@@ -358,8 +357,8 @@ export const CV:any = {
     {
       from:new Date(2012,9),
       to:new Date(2013,7),
-      title:"Compassion Suisse / Civiliste",
-      description:"Dans une petite équipe qu'est la branche Suisse de Compassion International. Le travail consiste aussi bien au développement en Windev de l'application principale utilisée dans l'entreprise que la mise en place et gestion de serveurs physiques et virtuels.",
+      title:"Compassion",
+      description:"Dans une petite équipe qu'est la branche Suisse de Compassion International en tant que Civiliste. Le travail consiste aussi bien au développement en Windev de l'application principale utilisée dans l'entreprise que la mise en place et gestion de serveurs physiques et virtuels.",
       abilities:["Windows 7","Windows Server 2008","Windev","ESXi","Debian","Archlinux"],
       contact: {
         name:"WULLIAMOZ David",
@@ -370,8 +369,8 @@ export const CV:any = {
     {
       from: new Date(2011,2),
       to: new Date(2012,6),
-      title:"HEIG-VD / Ingénieur assistant",
-      description:"Création d'un logiciel médical en Qt/C++, de l'écriture de la spécification avec les membres du corps médical impliqués jusqu'à une implémentation en version alpha utilisable. Ce projet continue sous le nom d'Ezechiel.",
+      title:"HEIG-VD",
+      description:"Post Ingénieur assistant à la haute école d'ingénieurie et de gestion de vaud. Création d'un logiciel médical en Qt/C++, de l'écriture de la spécification avec les membres du corps médical impliqués jusqu'à une implémentation en version alpha utilisable. Ce projet continue sous le nom d'Ezechiel.",
       abilities:["Gestion de projet","C++","Qt","XML","SQL"],
       contact:{
         name:"THOMA Yann",
