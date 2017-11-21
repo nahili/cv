@@ -8,6 +8,8 @@ import {BreakpointObserver, Breakpoints} from '@angular/cdk/layout';
 })
 export class AppComponent implements OnInit {
 
+  print:boolean = false;
+
   constructor(public breakpointObserver: BreakpointObserver) {
   }
 
@@ -78,6 +80,8 @@ export class AppComponent implements OnInit {
   // For the moment, the same as the small view
   printView():void {
     this.smallView();
+    // Change the theme
+    this.print=true;
   }
 
   // Change the place of a component (by selector) to a receptor (by ID)
