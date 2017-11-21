@@ -3,8 +3,12 @@
   flex-wrap: wrap;
 }
 
-#post-content > *, #post-header > * {
-  flex: 1 100%;
+#post-content > * {
+  flex: 1 33%;
+}
+
+#post-header > * {
+  flex: 1 50%;
 }
 
 /* Large screen */
