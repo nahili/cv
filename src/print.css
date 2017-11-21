@@ -19,3 +19,13 @@
 .mat-card {
   border-radius: 0 !important;
 }
+
+.element .mat-card-title {
+  font-size: 1.2em !important;
+  font-weight: bold !important;
+  color: #666 !important;
+}
+
+.mat-card-header-text {
+  margin: 0 auto !important;
+}

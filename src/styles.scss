@@ -43,6 +43,11 @@ mat-card-title {
   text-transform: uppercase;
 }
 
+/* This is to avoid space in flex containers when using a card inside */
+.mat-card {
+  height: calc(100% - 48px);
+}
+
 /* By default, hide the print version */
 .print, .print-inline {
   display: none !important;
