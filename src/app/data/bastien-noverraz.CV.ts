@@ -17,7 +17,7 @@ export const CV:any = {
   },
   contact: {
     email:"bastien.noverraz@gmail.com",
-    phone:"076 418 37 23",
+    phone:"077 433 51 69",
     linkedin:"bastien-noverraz-8a13ba26",
     address:"21 Rue de la Filature, 1224 Carouge"
   },
