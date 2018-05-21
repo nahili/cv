@@ -1,3 +1,6 @@
+let nextMonth : Date = new Date();
+nextMonth.setMonth(nextMonth.getMonth() + 1);
+
 export const CV:any = {
   person: {
     lastname:"Noverraz",
@@ -5,7 +8,7 @@ export const CV:any = {
     title:"Ingénieur / Développeur",
     subtitle:"",
     birthday:new Date(1989,8,8),
-    disponibility: Date.now(),
+    disponibility: nextMonth,
     picture: "/assets/bastien-noverraz/bastien-noverraz.jpg"
   },
   diploma: {
@@ -320,8 +323,16 @@ export const CV:any = {
   ],
   experiences:[
     {
-      from:new Date(2016,6),
+      from:new Date(2018,2),
       to: Date.now(),
+      doesNotCount: false,
+      title:"Movi+/OpenIT/Sigmalis",
+      description:"Développement d'un logiciel spécialisé pour les transports publics en C++ avec des interfaces web en Angular.",
+      abilities:["C++","Angular","Web","Docker","GIT", "Travail d'équipe"]
+    },
+    {
+      from:new Date(2016,6),
+      to: new Date(2018,1),
       doesNotCount: true,
       title:"Voyage",
       description:"Voyage et volontariats, en vélo, backpack, bus et voiture.",
