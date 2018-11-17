@@ -22,7 +22,7 @@ export const CV:any = {
     email:"bastien.noverraz@gmail.com",
     phone:"077 433 51 69",
     linkedin:"bastien-noverraz-8a13ba26",
-    address:"21 Rue de la Filature, 1224 Carouge"
+    address:"Rue du Battoir 2, 1329 Bretonnières"
   },
   abilities: [
     {
@@ -50,7 +50,7 @@ export const CV:any = {
       icon:"",
       context:["web","GUI"],
       style: "framework",
-      level: 2,
+      level: 3,
       projects: [{
         where:"TL SA",
         what:"Modification et adaptation des interfaces des bornes aux arrêts et dans les bus."
@@ -58,18 +58,6 @@ export const CV:any = {
       {
         where:"Personnel",
         what:"Ce CV est fait en Angular 2 et Angular Material."
-      }]
-    },
-    {
-      name:"Webix",
-      description:"Framework pour la création d'application web rapide.",
-      icon:"",
-      context:["web","GUI"],
-      style: "framework",
-      level: 1,
-      projects: [{
-        where:"RH/Givaudan",
-        what:"Interface web interne pour Givaudan."
       }]
     },
     {
@@ -133,6 +121,36 @@ export const CV:any = {
       }]
     },
     {
+      name:"CI/CD",
+      description:"Intégration continue et livraison continue",
+      icon:"",
+      context:["backend"],
+      style: "tool",
+      level: 4,
+      projects: [{
+        where:"TL SA",
+        what:"CI avec Jenkins"
+      },{
+        where:"OpenIT",
+        what: "Utilisation de Jenkins et GitLAB CI avec RobotFramework et GIT."
+      }]
+    },
+    {
+      name:"Robot",
+      description:"Framework de tests fonctionnels automatisés basé sur Python",
+      icon:"",
+      context:["backend"],
+      style: "framework",
+      level: 3,
+      projects: [{
+        where:"TL SA",
+        what:"CI avec Jenkins, RobotFramework"
+      },{
+        where:"OpenIT",
+        what: "Utilisation de Jenkins et GitLAB CI "
+      }]
+    },
+    {
       name:"SQL",
       description:"Langage pour communiquer avec une base de donnée relationnelle.",
       icon:"",
@@ -144,6 +162,9 @@ export const CV:any = {
         what:"Backend du site web mobile, backend de l'outil des RH."
       },{
         where:"TL",
+        what:"Backend du logiciel Synthese en MySQL : débogage et administration."
+      },{
+        where:"OpenIT",
         what:"Backend du logiciel Synthese en MySQL : débogage et administration."
       },{
         where:"HEIG-VD",
@@ -192,7 +213,7 @@ export const CV:any = {
       icon:"",
       context:["admin","embedded"],
       style: "os",
-      level: 3,
+      level: 4,
       projects: [{
         where:"TL SA",
         what:"Utilisé pour les serveurs de Synthese et comme OS embarqué dans les bus et bornes fixes."
@@ -204,7 +225,7 @@ export const CV:any = {
       icon:"",
       context:["admin","embedded"],
       style: "os",
-      level: 3,
+      level: 4,
       projects: [{
         where:"PMU",
         what:"Tous les serveurs web, DNS et IMAP"
@@ -234,10 +255,13 @@ export const CV:any = {
       icon:"",
       context:["backend","admin","virtualization"],
       style: "tool",
-      level: 2,
+      level: 4,
       projects: [{
         where:"TL SA",
         what:"Utilisé pour le développement de l'OS embarqué."
+      },{
+        where:"OpenIT",
+        what:"Utilisation pour le CI/CD, le développement, la compilation et le déployement de l'application."
       }]
     },
     {
@@ -246,7 +270,7 @@ export const CV:any = {
       icon:"",
       context:["admin"],
       style: "tool",
-      level: 3,
+      level: 4,
       projects: [{
         where:"TL",
         what:"Monitoring des services de Synthese et de la performance du site web."
@@ -326,9 +350,9 @@ export const CV:any = {
       from:new Date(2018,2),
       to: Date.now(),
       doesNotCount: false,
-      title:"Movi+/OpenIT/Sigmalis",
+      title:"Movi+/OpenIT",
       description:"Développement d'un logiciel spécialisé pour les transports publics en C++ avec des interfaces web en Angular.",
-      abilities:["C++","Angular","Web","Docker","GIT", "Travail d'équipe"]
+      abilities:["C++","Angular","Web","Docker","GIT","RobotFramework", "Travail d'équipe"]
     },
     {
       from:new Date(2016,6),

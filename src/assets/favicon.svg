@@ -14,7 +14,7 @@
    viewBox="0 0 16.933333 16.933334"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   inkscape:version="0.92.2 2405546, 2018-03-11"
    sodipodi:docname="favicon.svg"
    inkscape:export-filename="/home/banick/dev/cv/src/favicon.ico.png"
    inkscape:export-xdpi="96"
@@ -29,16 +29,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.6"
-     inkscape:cx="21.455975"
+     inkscape:cx="20.634182"
      inkscape:cy="51.632634"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g847"
      showgrid="false"
      units="px"
-     inkscape:window-width="1680"
-     inkscape:window-height="986"
+     inkscape:window-width="1920"
+     inkscape:window-height="1002"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="41"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -61,40 +61,41 @@
        id="g847"
        transform="translate(0.70870516,1.0501068e-5)">
       <text
-         transform="scale(0.83010802,1.2046625)"
+         transform="scale(0.82103087,1.217981)"
          id="text817"
-         y="243.47125"
-         x="1.8260226"
-         style="font-style:normal;font-weight:normal;font-size:10.5483675px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26370919"
+         y="240.7466"
+         x="2.7829041"
+         style="font-style:normal;font-weight:normal;font-size:9.35598183px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.23389956"
          xml:space="preserve"><tspan
-           style="stroke-width:0.26370919"
-           y="243.47125"
-           x="1.8260226"
+           style="stroke-width:0.23389956"
+           y="240.7466"
+           x="2.7829041"
            id="tspan815"
            sodipodi:role="line">CV</tspan></text>
       <text
-         transform="scale(-1,1)"
+         transform="scale(-0.84256632,1.1868502)"
          id="text821"
-         y="293.42001"
-         x="-4.3141656"
-         style="font-style:normal;font-weight:normal;font-size:15.56450462px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38911259"
+         y="246.84396"
+         x="-5.4069533"
+         style="font-style:normal;font-weight:normal;font-size:11.79419231px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29485482"
          xml:space="preserve"><tspan
-           style="stroke-width:0.38911259"
-           y="293.42001"
-           x="-4.3141656"
+           style="stroke-width:0.29485482"
+           y="246.84396"
+           x="-5.4069533"
            id="tspan819"
-           sodipodi:role="line">]</tspan></text>
+           sodipodi:role="line">}</tspan></text>
       <text
+         transform="scale(0.84256632,1.1868502)"
          id="text821-3"
-         y="293.42001"
-         x="11.201757"
-         style="font-style:normal;font-weight:normal;font-size:15.56450462px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38911259"
+         y="246.7625"
+         x="12.95848"
+         style="font-style:normal;font-weight:normal;font-size:11.79419231px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29485482"
          xml:space="preserve"><tspan
-           style="stroke-width:0.38911259"
-           y="293.42001"
-           x="11.201757"
-           id="tspan819-6"
-           sodipodi:role="line">]</tspan></text>
+           style="stroke-width:0.29485482"
+           y="246.7625"
+           x="12.95848"
+           id="tspan819-2"
+           sodipodi:role="line">}</tspan></text>
     </g>
   </g>
 </svg>
